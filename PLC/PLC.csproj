@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="ActProgTypeLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>cd7846df-1c99-4bc0-8a8d-fbfb7fc26acb</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ActUtlTypeLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>d217e54e-4a26-4a76-b0ab-57166b90f9af</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DL_Common\DL_Common.csproj" />
+    <ProjectReference Include="..\DL_Logger\DL_Logger.csproj" />
+    <ProjectReference Include="..\DL_PlcInterfce\DL_PlcInterfce.csproj" />
+    <ProjectReference Include="..\ErrorCode\ErrorCode.csproj" />
+    <ProjectReference Include="..\SystemConfig\SystemConfig.csproj" />
+  </ItemGroup>
+
+</Project>

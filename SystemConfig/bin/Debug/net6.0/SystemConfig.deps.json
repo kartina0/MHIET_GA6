@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SystemConfig/1.0.0": {
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "runtime": {
+          "SystemConfig.dll": {}
+        }
+      },
+      "DL_Common/1.0.0": {
+        "dependencies": {
+          "ErrorCode": "1.0.0"
+        },
+        "runtime": {
+          "DL_Common.dll": {}
+        }
+      },
+      "DL_Logger/1.0.0": {
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "runtime": {
+          "DL_Logger.dll": {}
+        }
+      },
+      "ErrorCode/1.0.0": {
+        "runtime": {
+          "ErrorCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SystemConfig/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DL_Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DL_Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ErrorCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

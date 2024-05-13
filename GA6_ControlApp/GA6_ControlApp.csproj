@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled</BaseOutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Camera\Camera.csproj" />
+    <ProjectReference Include="..\DL_Common\DL_Common.csproj" />
+    <ProjectReference Include="..\DL_Logger\DL_Logger.csproj" />
+    <ProjectReference Include="..\ErrorCode\ErrorCode.csproj" />
+    <ProjectReference Include="..\PLC\PLC.csproj" />
+    <ProjectReference Include="..\ShareResource\ShareResource.csproj" />
+    <ProjectReference Include="..\Simulator\Simulator.csproj" />
+    <ProjectReference Include="..\SystemConfig\SystemConfig.csproj" />
+  </ItemGroup>
+
+</Project>

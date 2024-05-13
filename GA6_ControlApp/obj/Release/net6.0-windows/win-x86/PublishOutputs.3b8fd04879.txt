@@ -1,0 +1,16 @@
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\GA6_ControlApp.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\D3DCompiler_47_cor3.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\PenImc_cor3.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\PresentationNative_cor3.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\vcruntime140_cor3.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\wpfgfx_cor3.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\Camera.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\DL_Common.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\DL_Common.dll.config
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\DL_Logger.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\PLC.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\SystemConfig.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\DL_PlcInterfce.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\DL_Socket.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\ErrorCode.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Compiled\Release\net6.0-windows\publish\win-x86\GA6_ControlApp.exe

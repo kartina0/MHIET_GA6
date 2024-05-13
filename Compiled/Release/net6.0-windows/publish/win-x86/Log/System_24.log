@@ -1,0 +1,37 @@
+2024/04/19 13:33:35.313,INFO,Logger起動
+2024/04/19 13:33:35.333,METHOD_IN,PLC_IF.Open(DUMMY;PLC_DUMMY;192.168.0.10;5000)
+2024/04/19 13:33:35.757,METHOD_OUT,PLC_IF.Open : STATUS_SUCCESS
+2024/04/19 13:33:35.866,METHOD_IN,frmMain Start()
+2024/04/19 13:33:35.894,METHOD_IN,frmMain Thread_Cycle()
+2024/04/19 13:33:35.901,METHOD_OUT,frmMain Start : STATUS_SUCCESS
+2024/04/19 13:33:36.786,METHOD_IN,frmMain ThreadStart()
+2024/04/19 13:33:36.792,METHOD_IN,frmMain Thread_Cycle()
+2024/04/19 13:33:36.799,METHOD_OUT,frmMain ThreadStart : STATUS_SUCCESS
+2024/04/19 13:33:40.857,INFO,受信 : 起動通知
+2024/04/19 13:33:40.859,INFO,送信 : 起動通知応答
+2024/04/19 13:33:40.862,INFO,受信 : 起動通知
+2024/04/19 13:33:40.862,INFO,送信 : 起動通知応答
+2024/04/19 13:33:40.940,INFO,受信 : ログイン通知
+2024/04/19 13:33:40.942,INFO,送信 : ログイン通知応答
+2024/04/19 13:33:40.946,INFO,受信 : ログイン通知
+2024/04/19 13:33:40.946,INFO,送信 : ログイン通知応答
+2024/04/19 13:33:42.916,INFO,送信 : 作業Itemリスト取得要求
+2024/04/19 13:33:42.921,INFO,受信 : 作業Itemリスト取得要求応答
+2024/04/19 13:33:43.062,INFO,受信 : 作業Itemリストデータ通知
+2024/04/19 13:33:43.114,INFO,受信 : 作業Itemリストデータ通知
+2024/04/19 13:33:43.117,INFO,送信 : 作業Itemリスト取得完了通知応答
+2024/04/19 13:33:43.990,ERROR,frmMain CreateWorkInfo() : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GA6_ControlApp.PlcThread.CreateWorkInfo() in D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\GA6_ControlApp\PlcThread.cs:line 338
+2024/04/19 13:33:57.004,INFO,送信 : 作業ID開始要求
+2024/04/19 13:33:57.009,INFO,受信 : 作業ID開始要求応答
+2024/04/19 13:33:58.005,SYSTEM,作業IDインデックス : 0   角度インデックス : 0
+2024/04/19 13:33:58.006,INFO,送信 : Start要求
+2024/04/19 13:33:58.912,INFO,受信 : Start要求応答   (結果 -> OK)
+2024/04/19 13:34:00.315,INFO,受信 : 作業Item完了通知(マッチング)
+2024/04/19 13:34:00.315,INFO,送信 : 作業Item完了通知応答
+2024/04/19 13:34:01.858,INFO,aaaaa
+2024/04/19 13:34:02.859,INFO,aaaaa
+2024/04/19 13:34:06.011,SYSTEM,作業IDインデックス : 2   角度インデックス : 2
+2024/04/19 13:34:06.011,INFO,送信 : Start要求
+2024/04/19 13:34:06.017,INFO,受信 : Start要求応答   (結果 -> OK)

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DL_Common\DL_Common.csproj" />
+    <ProjectReference Include="..\DL_Logger\DL_Logger.csproj" />
+    <ProjectReference Include="..\ErrorCode\ErrorCode.csproj" />
+    <ProjectReference Include="..\PLC\PLC.csproj" />
+    <ProjectReference Include="..\SystemConfig\SystemConfig.csproj" />
+  </ItemGroup>
+
+</Project>

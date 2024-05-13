@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DL_Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL_Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_Common.dll": {}
+        }
+      },
+      "DL_Logger/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL_Logger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_Logger.dll": {}
+        }
+      },
+      "ErrorCode/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ErrorCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ErrorCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DL_Common/1.0.0": {
+      "type": "project",
+      "path": "../DL_Common/DL_Common.csproj",
+      "msbuildProject": "../DL_Common/DL_Common.csproj"
+    },
+    "DL_Logger/1.0.0": {
+      "type": "project",
+      "path": "../DL_Logger/DL_Logger.csproj",
+      "msbuildProject": "../DL_Logger/DL_Logger.csproj"
+    },
+    "ErrorCode/1.0.0": {
+      "type": "project",
+      "path": "../ErrorCode/ErrorCode.csproj",
+      "msbuildProject": "../ErrorCode/ErrorCode.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DL_Common >= 1.0.0",
+      "DL_Logger >= 1.0.0",
+      "ErrorCode >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj",
+      "projectName": "SystemConfig",
+      "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj",
+      "packagesPath": "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\",
+      "outputPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Yabe Yutaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

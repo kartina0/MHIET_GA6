@@ -1,0 +1,12 @@
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\bin\Release\net6.0\ShareResource.deps.json
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\bin\Release\net6.0\ShareResource.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\bin\Release\net6.0\ShareResource.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.csproj.AssemblyReference.cache
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.AssemblyInfoInputs.cache
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.AssemblyInfo.cs
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.csproj.CoreCompileInputs.cache
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\refint\ShareResource.dll
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ShareResource.pdb
+D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\ShareResource\obj\Release\net6.0\ref\ShareResource.dll

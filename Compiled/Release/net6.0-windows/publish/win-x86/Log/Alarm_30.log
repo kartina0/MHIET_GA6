@@ -1,0 +1,9 @@
+2024/04/19 09:59:18.123,frmMain CreateWorkInfo() : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GA6_ControlApp.PlcThread.CreateWorkInfo() in D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\GA6_ControlApp\PlcThread.cs:line 377
+2024/04/19 09:59:30.102,System.InvalidOperationException: 有効ではないスレッド間の操作: コントロールが作成されたスレッド以外のスレッドからコントロール 'comboWorkId' がアクセスされました。
+   at System.Windows.Forms.Control.get_Handle()
+   at Interop.User32.SendMessageW(IHandle hWnd, WM Msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.ComboBox.get_SelectedIndex()
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at Simulator.frmPlcSimulator.Thread_Cycle(Object arg) in D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\Simulator\frmPlcSimulator.cs:line 477

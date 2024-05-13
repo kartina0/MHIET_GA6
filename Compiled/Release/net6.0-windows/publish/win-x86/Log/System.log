@@ -1,0 +1,25 @@
+2024/04/22 11:01:46.406,INFO,Logger起動
+2024/04/22 11:01:46.434,METHOD_IN,PLC_IF.Open(DUMMY;PLC_DUMMY;192.168.0.10;5000)
+2024/04/22 11:01:47.123,METHOD_OUT,PLC_IF.Open : STATUS_SUCCESS
+2024/04/22 11:01:47.336,METHOD_IN,frmMain Start()
+2024/04/22 11:01:47.347,METHOD_IN,frmMain Thread_Cycle()
+2024/04/22 11:01:47.354,METHOD_OUT,frmMain Start : STATUS_SUCCESS
+2024/04/22 11:01:48.974,METHOD_IN,frmMain ThreadStart()
+2024/04/22 11:01:48.982,METHOD_IN,frmMain Thread_Cycle()
+2024/04/22 11:01:48.988,METHOD_OUT,frmMain ThreadStart : STATUS_SUCCESS
+2024/04/22 11:01:52.007,INFO,受信 : 起動通知
+2024/04/22 11:01:52.008,INFO,送信 : 起動通知応答
+2024/04/22 11:01:52.011,INFO,受信 : 起動通知
+2024/04/22 11:01:52.011,INFO,送信 : 起動通知応答
+2024/04/22 11:01:52.014,INFO,受信 : ログイン通知
+2024/04/22 11:01:52.014,INFO,送信 : ログイン通知応答
+2024/04/22 11:01:52.018,INFO,受信 : ログイン通知
+2024/04/22 11:01:52.018,INFO,送信 : ログイン通知応答
+2024/04/22 11:01:54.372,INFO,送信 : 作業Itemリスト取得要求
+2024/04/22 11:01:54.376,INFO,受信 : 作業Itemリスト取得要求応答
+2024/04/22 11:01:54.508,INFO,受信 : 作業Itemリストデータ通知
+2024/04/22 11:01:54.553,INFO,受信 : 作業Itemリストデータ通知
+2024/04/22 11:01:54.561,INFO,送信 : 作業Itemリスト取得完了通知応答
+2024/04/22 11:01:55.604,ERROR,frmMain CreateWorkInfo() : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GA6_ControlApp.PlcThread.CreateWorkInfo() in D:\work\PROJECT\MHIET\GA6外観検査\soft\PC\GA6_ControlApp\GA6_ControlApp\PlcThread.cs:line 497

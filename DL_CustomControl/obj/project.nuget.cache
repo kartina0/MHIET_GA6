@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "y0ZFWQrbDvZUGlPo8+XMBv0PRztVDjYu6I7CclBNFVpr14IjkJxhCo56Jlq4ZIdRp9KVHVDjLGrI4xzjeF1tmw==",
+  "success": true,
+  "projectFilePath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\_Ref\\UG_Gateway_20240311\\UG_Gateway_20240311\\DL_CustomControl\\DL_CustomControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

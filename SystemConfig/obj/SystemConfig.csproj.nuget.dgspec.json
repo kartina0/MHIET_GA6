@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj": {}
+  },
+  "projects": {
+    "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj",
+        "projectName": "DL_Common",
+        "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj",
+        "projectName": "DL_Logger",
+        "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj"
+              },
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj",
+        "projectName": "ErrorCode",
+        "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj",
+        "projectName": "SystemConfig",
+        "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj",
+        "packagesPath": "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yabe Yutaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj"
+              },
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj"
+              },
+              "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+                "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

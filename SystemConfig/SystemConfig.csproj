@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DL_Common\DL_Common.csproj" />
+    <ProjectReference Include="..\DL_Logger\DL_Logger.csproj" />
+    <ProjectReference Include="..\ErrorCode\ErrorCode.csproj" />
+  </ItemGroup>
+
+</Project>

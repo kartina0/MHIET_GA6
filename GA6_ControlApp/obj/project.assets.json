@@ -1,0 +1,303 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Camera/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "DL_Socket": "1.0.0",
+          "ShareResource": "1.0.0",
+          "SystemConfig": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camera.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camera.dll": {}
+        }
+      },
+      "DL_Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL_Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_Common.dll": {}
+        }
+      },
+      "DL_Logger/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL_Logger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_Logger.dll": {}
+        }
+      },
+      "DL_PlcInterfce/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "DL_Socket": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL_PlcInterfce.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_PlcInterfce.dll": {}
+        }
+      },
+      "DL_Socket/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DL_Socket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL_Socket.dll": {}
+        }
+      },
+      "ErrorCode/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ErrorCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ErrorCode.dll": {}
+        }
+      },
+      "PLC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "DL_PlcInterfce": "1.0.0",
+          "ErrorCode": "1.0.0",
+          "SystemConfig": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PLC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PLC.dll": {}
+        }
+      },
+      "ShareResource/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShareResource.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShareResource.dll": {}
+        }
+      },
+      "Simulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "ErrorCode": "1.0.0",
+          "PLC": "1.0.0",
+          "SystemConfig": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Simulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simulator.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "SystemConfig/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DL_Common": "1.0.0",
+          "DL_Logger": "1.0.0",
+          "ErrorCode": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SystemConfig.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SystemConfig.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Camera/1.0.0": {
+      "type": "project",
+      "path": "../Camera/Camera.csproj",
+      "msbuildProject": "../Camera/Camera.csproj"
+    },
+    "DL_Common/1.0.0": {
+      "type": "project",
+      "path": "../DL_Common/DL_Common.csproj",
+      "msbuildProject": "../DL_Common/DL_Common.csproj"
+    },
+    "DL_Logger/1.0.0": {
+      "type": "project",
+      "path": "../DL_Logger/DL_Logger.csproj",
+      "msbuildProject": "../DL_Logger/DL_Logger.csproj"
+    },
+    "DL_PlcInterfce/1.0.0": {
+      "type": "project",
+      "path": "../DL_PlcInterfce/DL_PlcInterfce.csproj",
+      "msbuildProject": "../DL_PlcInterfce/DL_PlcInterfce.csproj"
+    },
+    "DL_Socket/1.0.0": {
+      "type": "project",
+      "path": "../DL_SocketLibrary/DL_Socket.csproj",
+      "msbuildProject": "../DL_SocketLibrary/DL_Socket.csproj"
+    },
+    "ErrorCode/1.0.0": {
+      "type": "project",
+      "path": "../ErrorCode/ErrorCode.csproj",
+      "msbuildProject": "../ErrorCode/ErrorCode.csproj"
+    },
+    "PLC/1.0.0": {
+      "type": "project",
+      "path": "../PLC/PLC.csproj",
+      "msbuildProject": "../PLC/PLC.csproj"
+    },
+    "ShareResource/1.0.0": {
+      "type": "project",
+      "path": "../ShareResource/ShareResource.csproj",
+      "msbuildProject": "../ShareResource/ShareResource.csproj"
+    },
+    "Simulator/1.0.0": {
+      "type": "project",
+      "path": "../Simulator/Simulator.csproj",
+      "msbuildProject": "../Simulator/Simulator.csproj"
+    },
+    "SystemConfig/1.0.0": {
+      "type": "project",
+      "path": "../SystemConfig/SystemConfig.csproj",
+      "msbuildProject": "../SystemConfig/SystemConfig.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Camera >= 1.0.0",
+      "DL_Common >= 1.0.0",
+      "DL_Logger >= 1.0.0",
+      "ErrorCode >= 1.0.0",
+      "PLC >= 1.0.0",
+      "ShareResource >= 1.0.0",
+      "Simulator >= 1.0.0",
+      "SystemConfig >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\GA6_ControlApp\\GA6_ControlApp.csproj",
+      "projectName": "GA6_ControlApp",
+      "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\GA6_ControlApp\\GA6_ControlApp.csproj",
+      "packagesPath": "C:\\Users\\Yabe Yutaro\\.nuget\\packages\\",
+      "outputPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\GA6_ControlApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Yabe Yutaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\Camera\\Camera.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\Camera\\Camera.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Common\\DL_Common.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\DL_Logger\\DL_Logger.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ErrorCode\\ErrorCode.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\PLC\\PLC.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\PLC\\PLC.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ShareResource\\ShareResource.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\ShareResource\\ShareResource.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\Simulator\\Simulator.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\Simulator\\Simulator.csproj"
+            },
+            "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj": {
+              "projectPath": "D:\\work\\PROJECT\\MHIET\\GA6外観検査\\soft\\PC\\GA6_ControlApp\\SystemConfig\\SystemConfig.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
